@@ -10,8 +10,8 @@ hcl
 Copy code
 this is sample data inserter by vim editor
 there is some examples need to added.
-provider "aws" {
-  region = "us-east-1"
+  d
+  sampleegion = "us-east-1"
 }
 
 resource "aws_instance" "example" {
