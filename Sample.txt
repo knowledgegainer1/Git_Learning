@@ -8,4 +8,13 @@ Example of a simple Terraform configuration file (main.tf):
 
 hcl
 Copy code
-this is sample data inserter by vim editpr
+this is sample data inserter by vim editor
+there is some examples need to added.
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+}
